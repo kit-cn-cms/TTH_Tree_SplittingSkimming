@@ -1,0 +1,7 @@
+for i in 64; do hadd Category_"$i"/Even/ttbar_nominal.root Category_"$i"/Even/ttbar_*_lf_nominal.root Category_"$i"/Even/ttbar_*_bb_nominal.root Category_"$i"/Even/ttbar_*_b_nominal.root Category_"$i"/Even/ttbar_*_2b_nominal.root Category_"$i"/Even/ttbar_*_cc_nominal.root; done
+
+for i in 64; do hadd Category_"$i"/Odd/ttbar_nominal.root Category_"$i"/Odd/ttbar_*_lf_nominal.root Category_"$i"/Odd/ttbar_*_bb_nominal.root Category_"$i"/Odd/ttbar_*_b_nominal.root Category_"$i"/Odd/ttbar_*_2b_nominal.root Category_"$i"/Odd/ttbar_*_cc_nominal.root; done
+
+for i in 64; do hadd Category_"$i"/Odd/ttH_nominal.root Category_"$i"/Odd/ttH_nominal.root 
+
+for i in 64; do hadd Category_"$i"/Even/ttH_nominal.root Category_"$i"/Even/ttH_nominal.root 
